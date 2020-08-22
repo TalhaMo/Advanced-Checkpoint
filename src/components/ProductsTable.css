@@ -1,0 +1,17 @@
+.electronics {
+    background-color: #d7ddf8;
+    color: green;
+}
+
+
+.clothes {
+    background-color: #D1ECF1;
+    color: lightcoral;
+}
+
+.ProductsTable{
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    justify-content: center;
+
+}

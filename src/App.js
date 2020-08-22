@@ -1,24 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ProductsTable from './components/ProductsTable';
 
-function App() {
+let products=[{name:'Smartphone SM-A21S', price:639,category:'Electronics'},{name:'Shoes', price:219,category:'Clothes'},{name:'TV Full HD', price:999,category:'Electronics'},{name:'Shorts', price:39,category:'Clothes'},{name:'Men\'s Skinny Jeans', price:89,category:'Clothes'},{name:'Asus PC X540BA', price:869,category:'Electronics'}]
+
+const App =()=> {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <ProductsTable products={products}  />
     </div>
   );
 }
